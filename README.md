@@ -5,7 +5,7 @@
 
 #### Documentation
 
-(https://dearflip.com/examples/jquery/index.html)[https://dearflip.com/examples/jquery/index.html]
+https://dearflip.com/examples/jquery/index.html
 
 #### flipbook pages are not visible/defect in pdf  
 
