@@ -19,7 +19,7 @@
 
 .df-container {
     min-height: 320px;
-    background: no-repeat 50%;
+    background: no-repeat 70%;
     background-size: cover;
     width: 100%;
     position: relative;
@@ -81,7 +81,7 @@
     font-weight: bold;
     font-style: normal;
     text-transform: uppercase;
-    color: #2196f3;
+    color: #353535;
     display: block;
     text-decoration: underline;
     margin: 10px 0 0
@@ -524,16 +524,18 @@
 
 .df-ui-wrapper,
 .df-ui-btn {
-    color: #888;
+    color: rgb(0, 0, 0);
     vertical-align: top;
-    background-color: #f7f7f7;
+    background-color: #a0a0a08c;
+    backdrop-filter: blur(10px);
     box-sizing: border-box;
     text-align: center
 }
 
 .df-ui-wrapper {
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
-    background-color: #f7f7f7;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.3);
+    background-color: #50505088;
+    backdrop-filter: blur(10px);
     position: absolute
 }
 
@@ -570,15 +572,15 @@ span.df-share-title {
 }
 
 .df-share-url {
-    background-color: #fff;
-    height: 60px;
-    color: #666;
-    padding: 2px 5px;
-    -webkit-border-radius: 5px;
+    background-color: rgb(221, 221, 221);
+    height: 80px;
+    color: rgb(0, 0, 0);
+    padding: 8px 5px;
+    -webkit-border-radius: 6px;
     -moz-border-radius: 5px;
-    border-radius: 5px;
+    border-radius: 8px;
     width: 100%;
-    font-size: 12px;
+    font-size: 10px;
     box-sizing: border-box;
     margin-bottom: 0
 }
@@ -592,11 +594,11 @@ span.df-share-title {
     border-radius: 50%;
     padding: 10px;
     margin: 3px;
-    color: rgb(189, 77, 77)
+    color: rgb(0, 0, 0)
 }
 
 .df-share-button:hover {
-    color: rgb(0, 0, 0)
+    color: rgb(87, 87, 87)
 }
 
 .df-ui-btn {
@@ -1014,7 +1016,7 @@ span.df-share-title {
 
 .annotationDiv .popup h1 {
     font-size: 1em;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid rgb(97, 97, 97);
     padding-bottom: .2em
 }
 
@@ -1057,7 +1059,7 @@ a.linkAnnotation:hover,
 a.customLinkAnnotation:hover {
     opacity: .4;
     border-color: transparent;
-    background-color: #2196f3
+    background-color: #577b99
 }
 
 .annotationDiv,
@@ -1354,10 +1356,10 @@ section.linkAnnotation a .annotationLayer>a {
 
 ._df_button {
     padding: 5px 15px;
-    background: #0085ba;
+    background: #5e5e5e;
     color: white;
     font-size: 14px;
-    border-color: #0073aa #006799 #006799;
+    border-color: #006799;
     cursor: pointer;
     border-width: 1px;
     border-style: solid;
